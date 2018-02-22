@@ -3,5 +3,5 @@ project(stacksqueues)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp include/functions.h)
+set(SOURCE_FILES main.cpp include/Functions.h src/Functions.cpp)
 add_executable(stacksqueues ${SOURCE_FILES})
